@@ -7,9 +7,29 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
   application:
     name: mascotas
+logging:
+  level:
+    org.springframework: DEBUG
+    org.hibernate: DEBUG
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5433/mascotas
+#    username: postgres
+#    password: sergio
+#    driver-class-name: org.postgresql.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+#    database: postgresql
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#
+#
+#  application:
+#    name: mascotas
