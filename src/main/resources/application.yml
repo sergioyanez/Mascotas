@@ -1,9 +1,26 @@
 
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5433/mascotas
+#    username: postgres
+#    password: sergio
+#    driver-class-name: org.postgresql.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+#    database: postgresql
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#
+#
+#  application:
+#    name: mascotas
+
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/mascotas
-    username: postgres
-    password: sergio
+    url: jdbc:postgresql://localhost:5432/mascotas_gfk4
+    username: conexion_postgres
+    password: XUyIBgHNmFviQG63i0cBZv4Ddc0avYNA
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -15,4 +32,3 @@ spring:
 
   application:
     name: mascotas
-
