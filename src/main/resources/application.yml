@@ -17,6 +17,7 @@ logging:
   level:
     org.springframework: DEBUG
     org.hibernate: DEBUG
+
 #spring:
 #  datasource:
 #    url: jdbc:postgresql://localhost:5433/mascotas
@@ -32,4 +33,6 @@ logging:
 #
 #
 #  application:
+server:
+  port: 8080
 #    name: mascotas
