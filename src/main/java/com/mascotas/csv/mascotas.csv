@@ -1,0 +1,41 @@
+id,nombre,raza,edad,habilidad,tipo
+1,Darwin,Collie,1,ElMejor,perro
+2,Jervis,Labrador,4,Familia,perro
+3,Krissy,Ovejero Aleman,13,Guardian,perro
+4,Lorne,Doberman,3,Guardian,perro
+5,Ivett,Caniche,20,Ruidoso,perro
+6,Hercules,Coker Spaniel,9,Pastor,perro
+7,Dasha,Salchicha,18,Garronero,perro
+8,Rocky,Border Collie,1,ElMejor,perro
+9,Petrina,Ovejero Aleman,2,Pastor,perro
+10,Waverley,Border Collie,3,Pastor,perro
+11,Eliot,Ovejero Aleman,10,Guardian,perro
+12,Ardeen,Salchicha,5,Ruidoso,perro
+13,Wandis,Border Collie,1,Pastor,perro
+14,Arlen,Salchicha,19,Garronero,perro
+15,Baillie,Salchicha,14,Garronero,perro
+16,Wakefield,Caniche,3,Ruidoso,perro
+17,Marni,Sorby,6,Sorbydo,perro
+18,Baryram,Pekines,14,Delicado,perro
+19,Marya,Caniche,14,Ruidoso,perro
+20,Albrecht,Border Collie,14,Lindo,perro
+21,Whiskers,Persa,3,Cazador,gato
+22,Oliver,Bengala,5,Curioso,gato
+23,Luna,Siames,2,ElMejor,gato
+24,Bella,Ragdoll,4,Dormilón,gato
+25,Simba,Maine Coon,7,Explorador,gato
+26,Milo,Esfinge,1,Juguetón,gato
+27,Chloe,Azul Ruso,6,Ágil,gato
+28,Leo,Siames,8,ElMejor,gato
+29,Nala,Maine Coon,9,Observador,gato
+30,Felix,Abisinio,10,Escapista,gato
+31,Misty,Birmano,3,Silencioso,gato
+32,Oscar,Bengala,12,Curioso,gato
+33,Shadow,Siames,5,Explorador,gato
+34,Cleo,Egipcio,11,Grácil,gato
+35,Ginger,Europeo,2,Curioso,gato
+36,Simone,Angora,4,Observador,gato
+37,Loki,Británico de Pelo Corto,3,Travieso,gato
+38,Kitty,Munchkin,1,Tierno,gato
+39,Sasha,Scottish Fold,6,Sereno,gato
+40,Zeus,Ragdoll,10,Dormilón,gato

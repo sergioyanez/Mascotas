@@ -1,0 +1,28 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/mascotas
+    username: postgres
+    password: sergio
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+  application:
+    name: mascotas
+
+logging:
+  level:
+    root: INFO    # Nivel de logging para la aplicación (puede ser TRACE, DEBUG, INFO, WARN, ERROR)
+    org.springframework: INFO   # Puedes configurar diferentes paquetes con distintos niveles de logging
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"  # Formato de salida en consola (opcional)
+  file:
+    enabled: false   # No registrar en archivos si solo quieres ver los logs en consola
+  console:
+    enabled: true    # Habilita los logs en consola
