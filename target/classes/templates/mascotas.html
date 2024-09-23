@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Mascotas</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<h1>Lista de Mascotas</h1>
+<table id="mascotasTable">
+    <thead>
+    <tr>
+        <th>Especie</th>
+        <th>Nombre</th>
+        <th>Raza</th>
+        <th>Edad</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Las filas de las mascotas se agregarán aquí -->
+    </tbody>
+</table>
+
+<script>
+    async function fetchMascotas() {
+        try {
+            const response = await fetch('http://localhost:8080/api/mascotas'); // Cambia la URL según tu API
+            const mascotas = await response.json();
+
+            const tableBody = document.querySelector('#mascotasTable tbody');
+            tableBody.innerHTML = ''; // Limpiar la tabla antes de agregar nuevas filas
+
+            mascotas.forEach(mascota => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                        <td>${mascota.tipo}</td>
+                        <td>${mascota.nombre}</td>
+                        <td>${mascota.raza}</td>
+                        <td>${mascota.edad}</td>
+                    `;
+                tableBody.appendChild(row);
+            });
+        } catch (error) {
+            console.error('Error al obtener las mascotas:', error);
+        }
+    }
+
+    // Llamar a la función al cargar la página
+    window.onload = fetchMascotas;
+</script>
+</body>
+</html>

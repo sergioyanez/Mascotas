@@ -1,0 +1,10 @@
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/MascotasApplication.java
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/controller/MascotaResource.java
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/controller/MascotaViewController.java
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/model/Mascota.java
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/repository/MascotaRepository.java
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/service/MascotaService.java
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/service/dto/mascota/request/MascotaRequestDTO.java
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/service/dto/mascota/response/MascotaResponseDTO.java
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/service/exception/NotFoundException.java
+/home/sergio/Escritorio/IntelliJ/proyectosIntelliJ/Mascotas/src/main/java/com/mascotas/utils/CargaDeDatos.java
