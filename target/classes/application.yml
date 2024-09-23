@@ -1,9 +1,8 @@
-
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/mascotas
-    username: postgres_mascotas
-    password: sergio
+    url: jdbc:postgresql://dpg-crohk208fa8c738rtk30-a:5432/mascotas_gfk4
+    username: conexion_postgres
+    password: XUyIBgHNmFviQG63i0cBZv4Ddc0avYNA
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -12,7 +11,5 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
-
   application:
     name: mascotas
-

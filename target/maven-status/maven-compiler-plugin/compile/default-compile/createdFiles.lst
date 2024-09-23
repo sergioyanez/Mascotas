@@ -1,0 +1,10 @@
+com/mascotas/service/dto/mascota/response/MascotaResponseDTO.class
+com/mascotas/repository/MascotaRepository.class
+com/mascotas/MascotasApplication.class
+com/mascotas/controller/MascotaResource.class
+com/mascotas/service/dto/mascota/request/MascotaRequestDTO.class
+com/mascotas/service/MascotaService.class
+com/mascotas/utils/CargaDeDatos.class
+com/mascotas/service/exception/NotFoundException.class
+com/mascotas/controller/MascotaViewController.class
+com/mascotas/model/Mascota.class
