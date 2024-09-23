@@ -1,20 +1,3 @@
-
-#spring:
-#  datasource:
-#    url: jdbc:postgresql://localhost:5433/mascotas
-#    username: postgres
-#    password: sergio
-#    driver-class-name: org.postgresql.Driver
-#
-#  jpa:
-#    hibernate:
-#      ddl-auto: create-drop
-#    database: postgresql
-#    database-platform: org.hibernate.dialect.PostgreSQLDialect
-#
-#
-#  application:
-#    name: mascotas
 spring:
   datasource:
     url: jdbc:postgresql://dpg-crohk208fa8c738rtk30-a:5432/mascotas_gfk4
