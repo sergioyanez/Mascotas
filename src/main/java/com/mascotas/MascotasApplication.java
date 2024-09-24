@@ -16,8 +16,8 @@ public class MascotasApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MascotasApplication.class, args);
 	}
-//	@PostConstruct
-//	public void init() throws IOException {
-//		cargaDeDatos.cargarDatosDesdeCSV();
-//	}
+	@PostConstruct
+	public void init() throws IOException {
+		cargaDeDatos.cargarDatosDesdeCSV();
+	}
 }

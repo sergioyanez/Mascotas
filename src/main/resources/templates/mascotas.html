@@ -38,7 +38,7 @@
 <script>
     async function fetchMascotas() {
         try {
-            const response = await fetch('https://mascotas-jmtd.onrender.com/api/mascotas'); // Cambia la URL según tu API
+            const response = await fetch('http://localhost:8080/api/mascotas'); // Cambia la URL según tu API
             const mascotas = await response.json();
 
             const tableBody = document.querySelector('#mascotasTable tbody');
